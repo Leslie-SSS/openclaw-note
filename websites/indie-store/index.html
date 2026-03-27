@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>独立站实操手册 | 从0到1完整指南</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+        .phase-card { position: relative; }
+        .phase-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; border-radius: 4px 0 0 4px; }
+        .phase-1::before { background: #3b82f6; }
+        .phase-2::before { background: #10b981; }
+        .phase-3::before { background: #f59e0b; }
+        .phase-4::before { background: #ef4444; }
+        .tool-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .cost-highlight { background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <nav class="bg-white border-b sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="font-bold text-lg">🌐 独立站实操手册</div>
+            <div class="flex space-x-6 text-sm text-gray-600">
+                <a href="#quickstart" class="hover:text-pink-600">快速开始</a>
+                <a href="#cost" class="hover:text-pink-600">成本分析</a>
+                <a href="#12months" class="hover:text-pink-600">12个月计划</a>
+                <a href="#tools" class="hover:text-pink-600">工具清单</a>
+                <a href="#selection" class="hover:text-pink-600">选品指南</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="quickstart" class="bg-gradient-to-r from-pink-500 to-rose-500 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4">
+            <h1 class="text-2xl font-bold mb-4">🚀 独立站起步：本周必做清单</h1>
+            <div class="grid md:grid-cols-3 gap-4">
+                <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                    <div class="font-semibold mb-2">Day 1-2：选品验证</div>
+                    <ul class="text-sm space-y-1 opacity-90">
+                        <li>• 用Google Trends验证品类趋势</li>
+                        <li>• 用Jungle Scout查看竞品销量</li>
+                        <li>• 确认毛利率≥40%</li>
+                    </ul>
+                </div>
+                <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                    <div class="font-semibold mb-2">Day 3-4：建站准备</div>
+                    <ul class="text-sm space-y-1 opacity-90">
+                        <li>• 注册Shopify（$1/月首3个月）</li>
+                        <li>• 购买域名（$10-15/年）</li>
+                        <li>• 选择免费主题（Dawn/Sense）</li>
+                    </ul>
+                </div>
+                <div class="bg-white/10 backdrop-blur rounded-lg p-4">
+                    <div class="font-semibold mb-2">Day 5-7：供应商对接</div>
+                    <ul class="text-sm space-y-1 opacity-90">
+                        <li>• 找3家供应商比价</li>
+                        <li>• 订样品测试质量</li>
+                        <li>• 确认MOQ和交期</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-4 bg-white/20 rounded-lg p-4">
+                <div class="font-semibold mb-2">💡 广州/番禺卖家优势</div>
+                <div class="grid md:grid-cols-4 gap-4 text-sm">
+                    <div>📍 番禺珠宝 - 全球加工基地</div>
+                    <div>👕 快时尚服装 - 小单快返</div>
+                    <div>💄 白云化妆品 - OEM基地</div>
+                    <div>👜 花都皮具 - 狮岭产业集群</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white border-b py-6">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-6 gap-4 text-center text-sm">
+                <div><div class="text-gray-500">全球市场规模</div><div class="font-bold text-lg">1-2万亿$</div></div>
+                <div><div class="text-gray-500">年增长率</div><div class="font-bold text-lg text-green-600">15-19%</div></div>
+                <div><div class="text-gray-500">起步预算</div><div class="font-bold text-lg">$3.5K-15K</div></div>
+                <div><div class="text-gray-500">目标ROAS</div><div class="font-bold text-lg">>2.0x</div></div>
+                <div><div class="text-gray-500">目标毛利率</div><div class="font-bold text-lg">≥40%</div></div>
+                <div><div class="text-gray-500">首年目标</div><div class="font-bold text-lg text-pink-600">$100K-500K</div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cost" class="py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8">💰 成本分析（真实数字）</h2>
+            
+            <div class="bg-white rounded-lg shadow-sm border p-6 mb-6">
+                <h3 class="font-bold text-lg mb-4">📦 Shopify 套餐</h3>
+                <div class="grid md:grid-cols-3 gap-4">
+                    <div class="border rounded-lg p-4">
+                        <div class="font-bold text-blue-600">Basic</div>
+                        <div class="text-2xl font-bold">$29/月</div>
+                        <div class="text-sm text-gray-500 mt-2">适合：个人创业者</div>
+                        <div class="text-sm mt-2">交易费：2.9% + $0.30</div>
+                    </div>
+                    <div class="border rounded-lg p-4 border-pink-500 relative">
+                        <div class="absolute -top-3 left-4 bg-pink-500 text-white text-xs px-2 py-1 rounded">推荐</div>
+                        <div class="font-bold text-pink-600">Grow</div>
+                        <div class="text-2xl font-bold">$79/月</div>
+                        <div class="text-sm text-gray-500 mt-2">适合：小型团队</div>
+                        <div class="text-sm mt-2">交易费：2.7% + $0.30</div>
+                    </div>
+                    <div class="border rounded-lg p-4">
+                        <div class="font-bold text-purple-600">Advanced</div>
+                        <div class="text-2xl font-bold">$299/月</div>
+                        <div class="text-sm text-gray-500 mt-2">适合：全球业务</div>
+                        <div class="text-sm mt-2">交易费：2.5% + $0.30</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-sm border p-6 mb-6 cost-highlight">
+                <h3 class="font-bold text-lg mb-4">📊 首年总成本</h3>
+                <table class="w-full text-sm">
+                    <thead><tr class="border-b"><th class="text-left py-2">项目</th><th class="text-right">起步</th><th class="text-right">推荐</th><th class="text-right">高级</th></tr></thead>
+                    <tbody>
+                        <tr class="border-b"><td class="py-2">Shopify订阅</td><td class="text-right">$348</td><td class="text-right">$948</td><td class="text-right">$3,588</td></tr>
+                        <tr class="border-b"><td class="py-2">域名+主题</td><td class="text-right">$15</td><td class="text-right">$315</td><td class="text-right">$2,050</td></tr>
+                        <tr class="border-b"><td class="py-2">首批备货</td><td class="text-right">$2,000</td><td class="text-right">$5,000</td><td class="text-right">$20,000</td></tr>
+                        <tr class="border-b"><td class="py-2">广告投放</td><td class="text-right">$1,500</td><td class="text-right">$6,000</td><td class="text-right">$30,000</td></tr>
+                        <tr class="font-bold bg-yellow-100"><td class="py-2">首年总计</td><td class="text-right">$3,863</td><td class="text-right">$12,263</td><td class="text-right">$55,638</td></tr>
+                        <tr class="text-gray-500"><td class="py-2">约人民币</td><td class="text-right">¥2.8万</td><td class="text-right">¥8.8万</td><td class="text-right">¥40万</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-sm border p-6">
+                <h3 class="font-bold text-lg mb-4">🚚 物流成本（从广州出发）</h3>
+                <div class="grid md:grid-cols-3 gap-4 text-sm">
+                    <div class="border rounded-lg p-4"><div class="font-bold">🇺🇸 美国</div><div class="mt-2">7-15天</div><div class="font-semibold text-pink-600">¥60-100/kg</div></div>
+                    <div class="border rounded-lg p-4"><div class="font-bold">🇪🇺 欧洲</div><div class="mt-2">10-20天</div><div class="font-semibold text-pink-600">¥55-90/kg</div></div>
+                    <div class="border rounded-lg p-4"><div class="font-bold">🌏 东南亚</div><div class="mt-2">5-10天</div><div class="font-semibold text-pink-600">¥30-50/kg</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="12months" class="py-12 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8">📅 12个月执行计划</h2>
+            
+            <div class="bg-white rounded-lg shadow-sm border p-6 mb-6 phase-card phase-1">
+                <div class="flex items-center justify-between mb-4">
+                    <div><h3 class="font-bold text-lg">第一阶段：筹备期（M1-3）</h3><p class="text-sm text-gray-500">市场调研、建站、供应链准备</p></div>
+                    <div class="text-right"><div class="text-sm text-gray-500">预算</div><div class="font-bold text-blue-600">$3.5K-15K</div></div>
+                </div>
+                <div class="grid md:grid-cols-3 gap-4 text-sm">
+                    <div><div class="font-semibold mb-2 text-blue-600">第1个月</div><ul class="space-y-1"><li>• 竞品分析（10-20个）</li><li>• 用户画像定义</li><li>• 产品选品确定</li><li>• 品牌命名、域名</li></ul></div>
+                    <div><div class="font-semibold mb-2 text-blue-600">第2个月</div><ul class="space-y-1"><li>• 供应商谈判、样品测试</li><li>• Logo设计、VI系统</li><li>• 产品拍摄</li><li>• 包装设计</li></ul></div>
+                    <div><div class="font-semibold mb-2 text-blue-600">第3个月</div><ul class="space-y-1"><li>• 建站（Shopify）</li><li>• 支付、物流对接</li><li>• 产品上架</li><li>• 网站测试、首批备货</li></ul></div>
+                </div>
+                <div class="mt-4 pt-4 border-t"><div class="font-semibold text-sm mb-2">✅ 里程碑</div><div class="grid md:grid-cols-3 gap-2 text-sm"><div class="bg-blue-50 p-2 rounded">M1末：完成选品</div><div class="bg-blue-50 p-2 rounded">M2末：样品通过</div><div class="bg-blue-50 p-2 rounded">M3末：网站上线</div></div></div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-sm border p-6 mb-6 phase-card phase-2">
+                <div class="flex items-center justify-between mb-4">
+                    <div><h3 class="font-bold text-lg">第二阶段：验证期（M4-6）</h3><p class="text-sm text-gray-500">验证PMF，找到可盈利渠道</p></div>
+                    <div class="text-right"><div class="text-sm text-gray-500">预算</div><div class="font-bold text-green-600">$14K-37K</div></div>
+                </div>
+                <div class="grid md:grid-cols-3 gap-4 text-sm">
+                    <div><div class="font-semibold mb-2 text-green-600">第4个月</div><ul class="space-y-1"><li>• Google/FB广告首次投放</li><li>• 内容营销启动</li><li>• 邮件营销系统</li><li>• 首批订单履约测试</li></ul></div>
+                    <div><div class="font-semibold mb-2 text-green-600">第5个月</div><ul class="space-y-1"><li>• 广告素材A/B测试</li><li>• 落地页优化</li><li>• 再营销广告</li><li>• 用户反馈收集</li></ul></div>
+                    <div><div class="font-semibold mb-2 text-green-600">第6个月</div><ul class="space-y-1"><li>• 各渠道ROI分析</li><li>• 红人营销测试</li><li>• 联盟营销启动</li><li>• 复购策略设计</li></ul></div>
+                </div>
+                <div class="mt-4 pt-4 border-t grid md:grid-cols-2 gap-4">
+                    <div><div class="font-semibold text-sm mb-2">📊 KPI目标</div><div class="text-sm space-y-1"><div>• 月销：$5K-15K</div><div>• 转化率：1.5%-2.5%</div><div>• ROAS：>1.5x</div></div></div>
+                    <div><div class="font-semibold text-sm mb-2">✅ 里程碑</div><div class="text-sm space-y-1"><div class="bg-green-50 p-2 rounded">M4末：100+订单</div><div class="bg-green-50 p-2 rounded">M6末：月销$10K+</div></div></div>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-sm border p-6 mb-6 phase-card phase-3">
+                <div class="flex items-center justify-between mb-4">
+                    <div><h3 class="font-bold text-lg">第三阶段：增长期（M7-9）</h3><p class="text-sm text-gray-500">销售额快速增长，建立稳定流量</p></div>
+                    <div class="text-right"><div class="text-sm text-gray-500">预算</div><div class="font-bold text-orange-600">$70K-197K</div></div>
+                </div>
+                <div class="grid md:grid-cols-3 gap-4 text-sm">
+                    <div><div class="font-semibold mb-2 text-orange-600">第7个月</div><ul class="space-y-1"><li>• 验证渠道预算翻倍</li><li>• 新广告素材批量制作</li><li>• TikTok新渠道测试</li><li>• 网红合作扩大</li></ul></div>
+                    <div><div class="font-semibold mb-2 text-orange-600">第8个月</div><ul class="space-y-1"><li>• 品牌故事视频</li><li>• 社群运营启动</li><li>• 会员体系搭建</li><li>• 新品开发</li></ul></div>
+                    <div><div class="font-semibold mb-2 text-orange-600">第9个月</div><ul class="space-y-1"><li>• 广告自动化</li><li>• 客服系统升级</li><li>• 供应链优化</li><li>• 数据看板搭建</li></ul></div>
+                </div>
+                <div class="mt-4 pt-4 border-t"><div class="font-semibold text-sm mb-2">📊 KPI目标</div><div class="grid md:grid-cols-4 gap-2 text-sm"><div class="bg-orange-50 p-2 rounded text-center"><div class="font-bold">月销$30K-80K</div></div><div class="bg-orange-50 p-2 rounded text-center"><div class="font-bold">ROAS 2.0-3.0</div></div><div class="bg-orange-50 p-2 rounded text-center"><div class="font-bold">自然流量20-30%</div></div><div class="bg-orange-50 p-2 rounded text-center"><div class="font-bold">复购率15-20%</div></div></div></div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-sm border p-6 phase-card phase-4">
+                <div class="flex items-center justify-between mb-4">
+                    <div><h3 class="font-bold text-lg">第四阶段：规模化（M10-12）</h3><p class="text-sm text-gray-500">实现盈利，建立可复制增长系统</p></div>
+                    <div class="text-right"><div class="text-sm text-gray-500">预算</div><div class="font-bold text-red-600">$171K-402K</div></div>
+                </div>
+                <div class="grid md:grid-cols-3 gap-4 text-sm">
+                    <div><div class="font-semibold mb-2 text-red-600">第10个月</div><ul class="space-y-1"><li>• 多渠道布局评估</li><li>• B2B/批发启动</li><li>• 国际市场拓展</li><li>• CRM深度应用</li></ul></div>
+                    <div><div class="font-semibold mb-2 text-red-600">第11个月</div><ul class="space-y-1"><li>• 新品研发</li><li>• 供应商扩展</li><li>• 产品线规划</li><li>• 套装设计</li></ul></div>
+                    <div><div class="font-semibold mb-2 text-red-600">第12个月</div><ul class="space-y-1"><li>• 年度财务复盘</li><li>• 团队绩效评估</li><li>• 下年战略规划</li><li>• 融资评估</li></ul></div>
+                </div>
+                <div class="mt-4 pt-4 border-t bg-red-50 p-4 rounded -mx-6 -mb-6"><div class="font-semibold text-sm mb-2">🎯 年度目标</div><div class="grid md:grid-cols-4 gap-4 text-sm"><div class="text-center"><div class="text-2xl font-bold text-red-600">$500K-1M</div><div class="text-gray-500">年销售额</div></div><div class="text-center"><div class="text-2xl font-bold">40-50%</div><div class="text-gray-500">毛利率</div></div><div class="text-center"><div class="text-2xl font-bold">10-20%</div><div class="text-gray-500">净利率</div></div><div class="text-center"><div class="text-2xl font-bold">3:1+</div><div class="text-gray-500">LTV:CAC</div></div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools" class="py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8">🛠️ 必备工具清单</h2>
+            <div class="grid md:grid-cols-3 gap-4">
+                <div class="bg-white rounded-lg shadow-sm border p-4 tool-card transition-all"><div class="text-2xl mb-2">🏪</div><h3 class="font-bold">建站</h3><div class="text-sm mt-2"><div class="flex justify-between"><span class="font-semibold text-pink-600">Shopify</span><span class="text-gray-500">$29+/月</span></div><div class="text-gray-600">推荐，生态最完善</div><div class="flex justify-between mt-1"><span>Shoplazza</span><span class="text-gray-500">¥299+/月</span></div></div></div>
+                <div class="bg-white rounded-lg shadow-sm border p-4 tool-card transition-all"><div class="text-2xl mb-2">💳</div><h3 class="font-bold">支付</h3><div class="text-sm mt-2"><div class="flex justify-between"><span class="font-semibold text-pink-600">Stripe</span><span class="text-gray-500">2.9%+$0.30</span></div><div class="text-gray-600">覆盖最广</div><div class="flex justify-between mt-1"><span>PayPal</span><span class="text-gray-500">2.9%+$0.30</span></div></div></div>
+                <div class="bg-white rounded-lg shadow-sm border p-4 tool-card transition-all"><div class="text-2xl mb-2">📧</div><h3 class="font-bold">邮件营销</h3><div class="text-sm mt-2"><div class="flex justify-between"><span class="font-semibold text-pink-600">Klaviyo</span><span class="text-gray-500">$0-20/月</span></div><div class="text-gray-600">电商专用，ROI最高</div></div></div>
+                <div class="bg-white rounded-lg shadow-sm border p-4 tool-card transition-all"><div class="text-2xl mb-2">📢</div><h3 class="font-bold">广告</h3><div class="text-sm mt-2"><div><span class="font-semibold text-pink-600">Meta Ads</span> - FB/IG首选</div><div><span class="font-semibold">Google Ads</span> - 搜索意图精准</div><div><span class="font-semibold">TikTok Ads</span> - 年轻客群</div></div></div>
+                <div class="bg-white rounded-lg shadow-sm border p-4 tool-card transition-all"><div class="text-2xl mb-2">📊</div><h3 class="font-bold">数据分析</h3><div class="text-sm mt-2"><div class="flex justify-between"><span class="font-semibold text-pink-600">GA4</span><span class="text-gray-500">免费</span></div><div class="text-gray-600">必备，流量分析</div><div class="flex justify-between mt-1"><span>Hotjar</span><span class="text-gray-500">$0-99/月</span></div></div></div>
+                <div class="bg-white rounded-lg shadow-sm border p-4 tool-card transition-all"><div class="text-2xl mb-2">🎨</div><h3 class="font-bold">设计</h3><div class="text-sm mt-2"><div class="flex justify-between"><span class="font-semibold text-pink-600">Canva</span><span class="text-gray-500">$0-13/月</span></div><div class="text-gray-600">零基础可用</div></div></div>
+            </div>
+            <div class="mt-6 bg-green-50 rounded-lg p-4"><h3 class="font-bold mb-2">💡 初期省钱方案（月销<$10k）</h3><div class="text-sm">Shopify Basic + 免费主题 + PayPal + GA4免费版 + Canva免费版 = <span class="font-semibold text-green-600">月固定成本约$50</span></div></div>
+        </div>
+    </section>
+
+    <section id="selection" class="py-12 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8">🎯 2026年选品指南</h2>
+            <div class="bg-white rounded-lg shadow-sm border p-6 mb-6">
+                <h3 class="font-bold text-lg mb-4">📈 爆款品类预测（数据支撑）</h3>
+                <div class="grid md:grid-cols-5 gap-4">
+                    <div class="text-center p-4 bg-green-50 rounded-lg"><div class="text-2xl">💊</div><div class="font-bold text-sm">健康保健品</div><div class="text-green-600 font-bold">+1,075%</div></div>
+                    <div class="text-center p-4 bg-green-50 rounded-lg"><div class="text-2xl">🧴</div><div class="font-bold text-sm">Tallow保湿霜</div><div class="text-green-600 font-bold">+2,600%</div></div>
+                    <div class="text-center p-4 bg-green-50 rounded-lg"><div class="text-2xl">👕</div><div class="font-bold text-sm">功能性服装</div><div class="text-green-600 font-bold">+85%</div></div>
+                    <div class="text-center p-4 bg-green-50 rounded-lg"><div class="text-2xl">🚗</div><div class="font-bold text-sm">汽车配件</div><div class="text-green-600 font-bold">+140%</div></div>
+                    <div class="text-center p-4 bg-green-50 rounded-lg"><div class="text-2xl">🚴</div><div class="font-bold text-sm">E-bike配件</div><div class="text-green-600 font-bold">持续增长</div></div>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-sm border p-6 mb-6">
+                <h3 class="font-bold text-lg mb-4">🏭 广州/番禺优势品类推荐</h3>
+                <table class="w-full text-sm"><thead><tr class="border-b"><th class="text-left py-2">品类</th><th class="text-center">产业优势</th><th class="text-center">2026热度</th><th class="text-center">推荐</th></tr></thead><tbody>
+                    <tr class="border-b"><td class="py-2">💎 珠宝首饰</td><td class="text-center">★★★★★</td><td class="text-center">★★★★☆</td><td class="text-center text-green-600 font-bold">高</td></tr>
+                    <tr class="border-b"><td class="py-2">👕 运动休闲服</td><td class="text-center">★★★★★</td><td class="text-center">★★★★★</td><td class="text-center text-green-600 font-bold">高</td></tr>
+                    <tr class="border-b"><td class="py-2">💄 护肤品/彩妆</td><td class="text-center">★★★★★</td><td class="text-center">★★★★★</td><td class="text-center text-green-600 font-bold">高</td></tr>
+                    <tr class="border-b"><td class="py-2">👜 箱包</td><td class="text-center">★★★★★</td><td class="text-center">★★★★☆</td><td class="text-center text-orange-600">中高</td></tr>
+                    <tr><td class="py-2">🚗 车载配件</td><td class="text-center">★★★☆☆</td><td class="text-center">★★★★★</td><td class="text-center text-orange-600">中</td></tr>
+                </tbody></table>
+            </div>
+            
+            <div class="bg-white rounded-lg shadow-sm border p-6">
+                <h3 class="font-bold text-lg mb-4">✅ 选品六步验证法</h3>
+                <div class="grid md:grid-cols-2 gap-6 text-sm">
+                    <div><div class="font-semibold mb-2">1️⃣ 需求验证</div><ul class="space-y-1"><li>• 多个listing有持续销售</li><li>• 多个关键词有搜索量</li><li>• 趋势线稳定</li></ul></div>
+                    <div><div class="font-semibold mb-2">2️⃣ 竞争验证</div><ul class="space-y-1"><li>• 头部评论数中低（<500）</li><li>• 销售分散于多个卖家</li><li>• 可发现listing弱点</li></ul></div>
+                    <div><div class="font-semibold mb-2">3️⃣ 利润验证</div><ul class="space-y-1"><li>• 毛利率≥40%</li><li>• 到岸成本扣除费用后有余</li><li>• 运费不会吃掉利润</li></ul></div>
+                    <div><div class="font-semibold mb-2">4️⃣ 差异化验证</div><ul class="space-y-1"><li>• 评论中有共同痛点</li><li>• 修复方案可负担且易沟通</li></ul></div>
+                </div>
+                <div class="mt-4 bg-pink-50 p-4 rounded"><div class="font-semibold mb-2">💡 选品黄金法则</div><div class="text-sm">数据驱动，不做猜测 | 差异化是生存之本 | 利润优先于销量 | 小批量测试，数据决定放大</div></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-6xl mx-auto px-4 text-center text-sm">
+            <p>🌐 独立站实操手册 | 从0到1完整指南</p>
+            <p class="text-gray-400 mt-2">基于325+主题研究 | 累计60万+字 | 2026年3月</p>
+        </div>
+    </footer>
+
+    <script>document.querySelectorAll('a[href^="#"]').forEach(anchor => { anchor.addEventListener('click', function (e) { e.preventDefault(); document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' }); }); });</script>
+</body>
+</html>
