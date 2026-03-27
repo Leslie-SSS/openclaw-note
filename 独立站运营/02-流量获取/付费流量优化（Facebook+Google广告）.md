@@ -606,3 +606,91 @@ Google：
 ---
 
 第267号完成，等待第268号指令。
+
+---
+
+## 2025-2026年付费广告最新变化
+
+> 更新于2026-03-28
+
+### 一、Meta广告（Facebook+Instagram）重大更新
+
+#### 1. Advantage+ Shopping Campaigns（ASC）成为主流
+
+Meta的Advantage+购物广告（原自动购物广告）在2025-2026年持续升级：
+- **全自动化投放**：广告主仅需上传素材和设置预算，AI自动优化受众、版位、出价
+- **ASC 2.0**：支持更多广告组（最多150个广告变体），AI自动筛选最优组合
+- **转化API（CAPI）整合增强**：Server-Side Tracking成为必备，减少iOS隐私限制的影响
+- **AI创意生成**：Meta内置AI工具自动生成广告文案变体、图片裁剪优化
+
+**实操建议**：
+- 新广告主：先用ASC测试，利用AI自动优化降低学习门槛
+- 成熟广告主：ASC+手动广告组并行，ASC占预算60-70%
+- CAPI必须配置：广告转化数据回传精度提升20-30%
+
+#### 2. iOS隐私政策持续收紧
+
+- iOS 17/18进一步限制跨应用追踪
+- SKAdNetwork 4.0提供更多转化值，但仍有延迟
+- **应对核心**：第一方数据+CAPI+Conversions API成为标配
+- Meta的Enhanced Conversions帮助弥补信号丢失
+
+#### 3. Instagram Reels广告增长
+
+- Reels广告位成为转化率最高的版位之一
+- 短视频素材（9:16竖屏）成为投放标准
+- 算法优先推荐原生感强的内容（非硬广）
+
+### 二、Google广告重大更新
+
+#### 1. Performance Max（PMax）全面铺开
+
+- Google Performance Max已成为核心投放方式，跨搜索/展示/YouTube/Gmail/Discover/Maps全渠道
+- **PMax 2025-2026升级**：
+  - 新增"品牌限制"功能，防止广告出现在不相关搜索
+  - 改善透明度：可见具体搜索词报告
+  - 更强的人工智能优化：自动生成文本素材和图片变体
+  - 与Merchant Center Next深度整合
+
+#### 2. Google Analytics 4（GA4）完全替代Universal Analytics
+
+- GA4已完全取代UA，所有电商数据迁移完成
+- **新增功能**：
+  - AI驱动的预测指标（购买概率、流失概率、收入预测）
+  - 更精细的用户路径分析
+  - BigQuery导出更便捷
+  - 探索报告（Exploration）功能增强
+
+#### 3. Google Shopping广告
+
+- Merchant Center Next界面更新
+- 产品Feed优化更智能：AI自动建议属性补充
+- 免费产品Listing继续扩展（自然流量+付费并行）
+- 本地库存广告（Local Inventory Ads）增强
+
+### 三、TikTok广告生态成熟
+
+- TikTok Shop与TikTok Ads Manager深度整合
+- **TikTok广告新功能**：
+  - Spark Ads（原生广告）效果持续领先
+  - TikTok Shop闭环转化（无需跳转独立站）
+  - 独立站+TikTok Shop双轨投放策略
+  - 视频购物广告（Video Shopping Ads）
+
+### 四、2026年广告成本趋势
+
+| 平台 | CPC趋势 | CPM趋势 | ROAS建议 |
+|------|---------|---------|----------|
+| Meta (FB+IG) | $0.50-2.00 | $7-15 | >2.5 |
+| Google Search | $1.00-5.00 | $10-30 | >3.0 |
+| Google PMax | 混合 | 混合 | >3.0 |
+| TikTok | $0.30-1.00 | $4-10 | >2.0 |
+| Pinterest | $0.20-1.00 | $5-12 | >2.5 |
+
+### 五、独立站广告投放策略更新
+
+1. **信号补救优先**：配置CAPI+Enhanced Conversions，弥补隐私限制
+2. **AI自动化为主**：Advantage+和PMax成为投放主力
+3. **短视频为王**：9:16竖屏素材覆盖Reels/TikTok/YouTube Shorts
+4. **多平台协同**：Meta+Google+TikTok三平台组合投放
+5. **TikTok Shop双轨**：TikTok广告同时引流TikTok Shop和独立站
