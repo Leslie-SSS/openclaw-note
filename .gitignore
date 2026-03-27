@@ -1,0 +1,7 @@
+# PDF 文件太大，不上传
+*.pdf
+
+# 临时文件
+*.log
+*.tmp
+.DS_Store
